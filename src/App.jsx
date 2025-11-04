@@ -6,7 +6,8 @@ function App() {
 	return (
 		<main>
 			<Navbar />
-      <HeroSection/>
+			<HeroSection />
+			{/* <div className="h-dvh"></div> */}
 		</main>
 	);
 }
