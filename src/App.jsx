@@ -23,7 +23,7 @@ function App() {
 					<HeroSection />
 					<MessageSection />
 					<BandSection />
-					{/* <div className="h-dvh"></div> */}
+					<div className="h-dvh"></div>
 				</div>
 			</div>
 		</main>

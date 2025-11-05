@@ -11,8 +11,8 @@ function BandTitle() {
 			stagger: 0.02,
 			ease: "power1.inOut",
 			scrollTrigger: {
-				trigger: ".flavor-section",
-				start: "top 30%",
+				trigger: ".band-section",
+				start: "top 20%",
 				// end: "40% 40%",
 				// scrub: true,
 				// markers: true
@@ -23,19 +23,19 @@ function BandTitle() {
 			stagger: 0.02,
 			ease: "power1.inOut",
 			scrollTrigger: {
-				trigger: ".flavor-section",
-				start: "top 1%",
-				// end: "40% 40%",
+				trigger: ".band-section",
+				start: "top top",
+				end: "40% 50%",
 				// scrub: true,
-				// markers: true
+				markers: true
 			},
 		});
 
-		gsap.to(".flavor-text-scroll", {
+		gsap.to(".band-text-scroll", {
 			clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
 			ease: "circ.inOut",
 			scrollTrigger: {
-				trigger: ".flavor-section",
+				trigger: ".band-section",
 				start: "top 10%",
 				// markers: true,
 			},
@@ -46,8 +46,8 @@ function BandTitle() {
 			<div className="overflow-hidden 2xl:px-0 py-3 first-text-split ">
 				<h1> Meet our</h1>
 			</div>
-			<div style={{ clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)" }} className="flavor-text-scroll">
-				<div className="bg-light-brown pb-2 2xl:pt-0 pt-3 2xl:px-10 px-3">
+			<div style={{ clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)" }} className="band-text-scroll">
+				<div className="bg-light-brown pb-5 2xl:pt-0 pt-3 2xl:px-10 px-3">
 					<h2 className="text-dark-brown">Freaking</h2>
 				</div>
 			</div>
