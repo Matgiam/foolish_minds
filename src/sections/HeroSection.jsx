@@ -36,7 +36,7 @@ function HeroSection() {
 	});
 
 	return (
-		<section className="bg-main-bg" id="hero">
+		<section className="bg-main-bg">
 			<div className="hero-container">
 				<img src="/images/homescreen.png" alt="" className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto scale-100 md:scale-100" />
 				<div className="hero-content text-white">

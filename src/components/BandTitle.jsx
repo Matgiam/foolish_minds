@@ -15,7 +15,7 @@ function BandTitle() {
 				start: "top 15%",
 				// end: "40% 40%",
 				// scrub: true,
-				markers: true
+				// markers: true
 			},
 		});
 		gsap.from(secondTextSplit.chars, {
