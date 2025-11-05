@@ -14,7 +14,7 @@ function MessageSection() {
 				start: "top 80%",
 				end: "80% 80%",
 				scrub: true,
-				markers: true,
+				// markers: true,
 			},
 		});
 	});
