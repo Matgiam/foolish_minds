@@ -18,13 +18,13 @@ function App() {
 	});
 	return (
 		<main>
-			<Navbar />
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
+					
 					<HeroSection />
 					<MessageSection />
 					<BandSection />
-					<VideoSection/>
+					<VideoSection />
 					<div className="h-dvh"></div>
 				</div>
 			</div>

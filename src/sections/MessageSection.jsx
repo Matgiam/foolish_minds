@@ -20,7 +20,7 @@ function MessageSection() {
 	});
 
 	return (
-		<section className="message-content">
+		<section  className="message-content">
 			<div className="container mx-auto flex-center py-28 relative">
 				<div className="">
 					<div className="msg-wrapper">

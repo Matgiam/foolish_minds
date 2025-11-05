@@ -12,10 +12,10 @@ function BandTitle() {
 			ease: "power1.inOut",
 			scrollTrigger: {
 				trigger: ".band-section",
-				start: "top 20%",
+				start: "top 15%",
 				// end: "40% 40%",
 				// scrub: true,
-				// markers: true
+				markers: true
 			},
 		});
 		gsap.from(secondTextSplit.chars, {
@@ -24,10 +24,10 @@ function BandTitle() {
 			ease: "power1.inOut",
 			scrollTrigger: {
 				trigger: ".band-section",
-				start: "top top",
-				end: "40% 50%",
+				start: "top 5%",
+			
 				// scrub: true,
-				markers: true
+				// markers: true
 			},
 		});
 
@@ -36,7 +36,7 @@ function BandTitle() {
 			ease: "circ.inOut",
 			scrollTrigger: {
 				trigger: ".band-section",
-				start: "top 10%",
+				start: "top 8%",
 				// markers: true,
 			},
 		});

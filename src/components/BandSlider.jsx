@@ -42,13 +42,13 @@ function BandSlider() {
 		});
 		titleTl
 			.to(".first-text-split", {
-				xPercent: -40,
+				xPercent: -35,
 				ease: "power1.inOut",
 			})
 			.to(
 				".band-text-scroll",
 				{
-					xPercent: -32,
+					xPercent: -22,
 					ease: "power1.inOut",
 				},
 				"<" //play overlapping animation, not stutter
@@ -56,7 +56,7 @@ function BandSlider() {
 			.to(
 				".second-text-split",
 				{
-					xPercent: -20,
+					xPercent: -10,
 					ease: "power1.inOut",
 				},
 				"<"
