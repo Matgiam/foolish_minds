@@ -20,7 +20,7 @@ function VideoSection() {
 				},
 			});
 			tl.to(".video-box", {
-				clipPath: "circle(70% at 50% 50%)",
+				clipPath: "circle(100% at 50% 50%)",
 				ease: "power1.inOut",
 			});
 		}

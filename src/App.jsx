@@ -7,6 +7,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import BandSection from "./sections/BandSection";
 import VideoSection from "./sections/VideoSection";
+import ShowSection from "./sections/ShowSection";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 function App() {
@@ -25,6 +26,7 @@ function App() {
 					<MessageSection />
 					<BandSection />
 					<VideoSection />
+					<ShowSection/>
 					<div className="h-dvh"></div>
 				</div>
 			</div>
