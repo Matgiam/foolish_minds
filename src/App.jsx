@@ -5,6 +5,7 @@ import MessageSection from "./sections/MessageSection";
 import { ScrollTrigger, ScrollSmoother } from "gsap/all";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import BandSection from "./sections/BandSection";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 function App() {
@@ -21,7 +22,8 @@ function App() {
 				<div id="smooth-content">
 					<HeroSection />
 					<MessageSection />
-					<div className="h-dvh"></div>
+					<BandSection />
+					{/* <div className="h-dvh"></div> */}
 				</div>
 			</div>
 		</main>
