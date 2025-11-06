@@ -13,20 +13,32 @@ function ShowSection() {
 				start: "top bottom",
 				end: "200% top",
 				scrub: true,
-                markers: true
+				// markers: true
 			},
 		});
 
 		wordsTl
-			.to(".show-section .first-word", {
-				xPercent: 70,
-			}, "<")
-			.from(".show-section .second-word", {
-				xPercent: 50,
-			}, "<")
-			.to(".show-section .third-word", {
-				xPercent: 40,
-			}, "<");
+			.to(
+				".show-section .first-word",
+				{
+					xPercent: 70,
+				},
+				"<"
+			)
+			.from(
+				".show-section .second-word",
+				{
+					xPercent: 50,
+				},
+				"<"
+			)
+			.to(
+				".show-section .third-word",
+				{
+					xPercent: 40,
+				},
+				"<"
+			);
 	});
 
 	return (
