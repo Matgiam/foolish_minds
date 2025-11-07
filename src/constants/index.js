@@ -21,4 +21,25 @@ const bandlist = [
 	},
 ];
 
-export { bandlist };
+const songlist = [
+	{
+		image: "/images/sabbi.png",
+		title: "Sabbi",
+		artist: "foolish minds",
+		audioSrc: "/audio/sabbi.wav",
+	},
+	{
+		image: "/images/fool.png",
+		title: "The fool",
+		artist: "foolish minds",
+		audioSrc: "/audio/fool.wav",
+	},
+	{
+		image: "/images/lost.png",
+		title: "Lost",
+		artist: "foolish minds",
+		audioSrc: "/audio/lost.wav",
+	},
+];
+
+export { bandlist, songlist };

@@ -25,7 +25,7 @@ function VideoSection() {
 					start: "1% top",
 					end: "60%",
 					scrub: true,
-					markers: true,
+					// markers: true,
 				},
 			});
 

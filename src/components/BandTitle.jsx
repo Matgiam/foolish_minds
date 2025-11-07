@@ -37,7 +37,6 @@ function BandTitle() {
 			scrollTrigger: {
 				trigger: ".band-section",
 				start: "top 8%",
-				// markers: true,
 			},
 		});
 	});
