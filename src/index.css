@@ -3,6 +3,7 @@
 
 @theme {
 	--color-black: #222123;
+	--color-dark-black: #212121;
 	--color-main-bg: #232224;
 	--color-white: #ffffff;
 	--color-dark-brown: #523122;
@@ -84,8 +85,8 @@ body::-webkit-scrollbar {
 		@apply min-w-dvw min-h-dvh;
 	}
 	p {
-			@apply uppercase 2xl:text-[1.2rem] md:text-2xl text-xl pt-2 ;
-		}
+		@apply uppercase 2xl:text-[1.2rem] md:text-2xl text-xl pt-2;
+	}
 
 	.second-title {
 		@apply 2xl:text-[2rem] md:text-8xl text-5xl uppercase pt-2 font-bold;
@@ -139,9 +140,33 @@ body::-webkit-scrollbar {
 }
 
 .show-section {
-	@apply bg-milk relative w-full h-[150dvh];
+	@apply bg-milk relative w-full h-[180dvh];
 
 	h1 {
 		@apply uppercase text-[20.5vw] leading-[105%] tracking-[-.4vw] ml-[2vw] font-bold text-light-brown;
+	}
+}
+
+.footer-section {
+	@apply relative w-screen h-screen overflow-hidden;
+	.footer-title {
+		@apply 2xl:text-[8.5rem] md:text-8xl text-5xl font-bold uppercase text-white;
+	}
+	.footer-padding {
+		@apply p-3;
+	}
+
+	h1 {
+		@apply uppercase text-[1.5vw];
+	}
+	.footer-textarea {
+		@apply rounded-2xl  focus:outline-none text-white border-2;
+	}
+	.footer-text {
+		@apply border-0 border-b-2 border-white focus:outline-none text-white pb-2 w-full;
+	}
+
+	.footer-button {
+		@apply bg-dark-black text-white py-2  border  max-w-[100px];
 	}
 }

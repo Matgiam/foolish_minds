@@ -21,7 +21,7 @@ function SongCardItem(props) {
 
 	return (
 		<div className="song-card">
-			<div className="cube" style={{ width: 420, height: 420 }}>
+			<div className="cube">
 				<img src={props.image} alt={`${props.title} cover`} />
 			</div>
 

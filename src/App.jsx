@@ -9,6 +9,7 @@ import BandSection from "./sections/BandSection";
 import VideoSection from "./sections/VideoSection";
 import ShowSection from "./sections/ShowSection";
 import SongSection from "./sections/SongSection";
+import FooterSection from "./sections/FooterSection";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 function App() {
@@ -29,7 +30,8 @@ function App() {
 					<BandSection />
 					<VideoSection />
 					<ShowSection />
-					<div className="h-dvh"></div>
+					<FooterSection/>
+					{/* <div className="h-dvh"></div> */}
 				</div>
 			</div>
 		</main>
