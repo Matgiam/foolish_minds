@@ -6,7 +6,7 @@ function SongTitle() {
 			trigger: ".song-section",
 			start: "top 50%",
 			end: "10% 50%",
-			markers: true,
+			// markers: true,
 		},
 	});
 	textTL.to(".song-text-scroll", {

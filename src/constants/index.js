@@ -42,4 +42,14 @@ const songlist = [
 	},
 ];
 
-export { bandlist, songlist };
+const positions = [
+	{ left: "left-[22%]", rotation: "rotate-[-5deg]", image: "gonzo" },
+	{ left: "left-[48%]", rotation: "rotate-[8deg]", image: "herfstconcerten" },
+	{ left: "left-[15%]", rotation: "rotate-[3deg]", image: "okegem" },
+	{ left: "left-[42%]", rotation: "rotate-[-10deg]", image: "trike" },
+	{ left: "left-[27%]", rotation: "rotate-[6deg]", image: "gonzo_2" },
+	{ left: "left-[19%]", rotation: "rotate-[-7deg]", image: "gonzo_3" },
+	{ left: "left-[31%]", rotation: "rotate-[2deg]", image: "herfstconcerten_3" },
+];
+
+export { bandlist, songlist, positions };
