@@ -13,7 +13,7 @@ function ShowSection() {
 				start: "top bottom",
 				end: "200% top",
 				scrub: true,
-				// markers: true
+				markers: true,
 			},
 		});
 
@@ -39,6 +39,27 @@ function ShowSection() {
 				},
 				"<"
 			);
+
+		const cardTl = gsap.timeline({
+			scrollTrigger: {
+				trigger: ".show-section",
+				start: "top top",
+				end: "200% 40%",
+				scrub: 1.2,
+				markers: true,
+				pin: true,
+			},
+		});
+
+		cardTl.to(
+			".vd-card",
+			{
+				yPercent: (i) => -450 - i * 80,
+				stagger: 0.05,
+				ease: "power1.inOut",
+			},
+			"<"
+		);
 	});
 
 	return (
@@ -46,6 +67,32 @@ function ShowSection() {
 			<h1 className="first-word">our</h1>
 			<h1 className="second-word">previous</h1>
 			<h1 className="third-word">shows</h1>
+			<div className="flex flex-col">
+				<div className="vd-card left-[250px]">
+					<img src="public/images/Footer.png" alt="" />
+				</div>
+				<div className="vd-card left-[450px]">
+					<img src="public/images/Footer.png" alt="" />
+				</div>
+				<div className="vd-card left-[250px]">
+					<img src="public/images/Footer.png" alt="" />
+				</div>
+				<div className="vd-card left-[450px]">
+					<img src="public/images/Footer.png" alt="" />
+				</div>
+				<div className="vd-card left-[250px]">
+					<img src="public/images/Footer.png" alt="" />
+				</div>
+				<div className="vd-card left-[450px]">
+					<img src="public/images/Footer.png" alt="" />
+				</div>
+				<div className="vd-card left-[250px]">
+					<img src="public/images/Footer.png" alt="" />
+				</div>
+				<div className="vd-card left-[450px]">
+					<img src="public/images/Footer.png" alt="" />
+				</div>
+			</div>
 		</section>
 	);
 }

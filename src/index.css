@@ -140,17 +140,21 @@ body::-webkit-scrollbar {
 }
 
 .show-section {
-	@apply bg-milk relative w-full h-[180dvh];
+	@apply bg-milk relative w-full h-[160dvh];
 
 	h1 {
 		@apply uppercase text-[20.5vw] leading-[105%] tracking-[-.4vw] ml-[2vw] font-bold text-light-brown;
 	}
+
+	 .vd-card {
+        @apply md:w-200 w-80 flex-none md:rounded-[2vw] rounded-3xl overflow-hidden 2xl:relative absolute border-[.5vw] border-milk;
+      }
 }
 
 .footer-section {
 	@apply relative w-screen h-screen overflow-hidden;
 	.footer-title {
-		@apply 2xl:text-[8.5rem] md:text-8xl text-5xl font-bold uppercase text-white;
+		@apply 2xl:text-[9.5rem] md:text-8xl text-5xl font-bold uppercase text-white;
 	}
 	.footer-padding {
 		@apply p-3;
