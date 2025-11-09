@@ -1,6 +1,29 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import { useRef, useState } from "react";
 
 function SongCardItem(props) {
+	useGSAP(() => {
+		const cardTl = gsap.timeline({
+			scrollTrigger: {
+				trigger: "song-section",
+				start: "1% top",
+				end: "40% top",
+				// markers: true,
+			},
+		});
+
+		cardTl.to(
+			".song-card",
+			{
+				delay: 2,
+				yPercent: -5,
+				ease: "power1.inOut",
+				stagger: 0.5,
+			},
+			
+		);
+	});
 	const audioRef = useRef(null);
 	const [isPlaying, setIsPlaying] = useState(false);
 

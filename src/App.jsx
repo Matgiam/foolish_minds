@@ -26,11 +26,11 @@ function App() {
 				<div id="smooth-content">
 					<HeroSection />
 					<MessageSection />
-					<SongSection/>
+					<SongSection />
 					<BandSection />
 					<VideoSection />
 					<ShowSection />
-					<FooterSection/>
+					<FooterSection />
 					{/* <div className="h-dvh"></div> */}
 				</div>
 			</div>

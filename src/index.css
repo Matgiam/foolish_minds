@@ -146,9 +146,9 @@ body::-webkit-scrollbar {
 		@apply uppercase text-[20.5vw] leading-[105%] tracking-[-.4vw] ml-[2vw] font-bold text-light-brown;
 	}
 
-	 .vd-card {
-        @apply md:w-200 w-80 flex-none md:rounded-[2vw] rounded-3xl overflow-hidden 2xl:relative absolute border-[.5vw] border-milk;
-      }
+	.vd-card {
+		@apply md:w-200 w-80 flex-none md:rounded-[2vw] rounded-3xl overflow-hidden 2xl:relative absolute border-[.5vw] border-milk;
+	}
 }
 
 .footer-section {
@@ -171,6 +171,6 @@ body::-webkit-scrollbar {
 	}
 
 	.footer-button {
-		@apply bg-dark-black text-white py-2  border  max-w-[100px];
+		@apply bg-dark-black text-white py-2  border hover:bg-[#101010] max-w-[100px];
 	}
 }
