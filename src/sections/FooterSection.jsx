@@ -33,7 +33,7 @@ function FooterSection() {
 						<h1 className="text-white">NAME</h1>
 						<input type="text" placeholder="" className="footer-text" required name="name" />
 						<h1 className="text-white">EMAIL</h1>
-						<input type="email" placeholder="" className="footer-text" required />
+						<input type="email" name="email" placeholder="" className="footer-text" required />
 						<h1 className="text-white">MESSAGE</h1>
 						<textarea rows={5} className="footer-padding footer-textarea" name="message" required></textarea>
 						<button type="submit" className="footer-button">

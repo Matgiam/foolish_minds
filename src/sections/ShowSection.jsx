@@ -44,10 +44,10 @@ function ShowSection() {
 		const cardTl = gsap.timeline({
 			scrollTrigger: {
 				trigger: ".show-section",
-				start: "top top",
+				start: "5% top",
 				end: "200% 40%",
 				scrub: 1.2,
-				// markers: true,
+				markers: true,
 				pin: true,
 			},
 		});
