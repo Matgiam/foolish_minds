@@ -1,16 +1,101 @@
-# React + Vite
+# Foolish Minds Band Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive website for the band Foolish Minds built with React, Vite, and GSAP for smooth animations and scrolling effects.
 
-Currently, two official plugins are available:
+## 🎸 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Foolish Minds is a band website featuring:
+- Hero section with band introduction
+- Music player with song previews
+- Band member profiles
+- Video showcase
+- Upcoming shows and events
+- Contact section
+- Smooth scrolling animations
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19.1.1
+- **Build Tool**: Vite 7.1.7
+- **Styling**: Tailwind CSS
+- **Animations**: GSAP (GreenSock Animation Platform)
+- **Deployment**: GitHub Pages
 
-## Expanding the ESLint configuration
+## 📦 Dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Main Dependencies
+- `react` & `react-dom` - Core React library
+- `gsap` & `@gsap/react` - Animation library
+- `@tailwindcss/vite` - Tailwind CSS integration
+- `react-responsive` - Responsive design utilities
+- `@emailjs/browser` - Email functionality
+
+### Development Dependencies
+- `@vitejs/plugin-react` - React plugin for Vite
+- `eslint` - Code linting
+- `gh-pages` - GitHub Pages deployment
+
+## 🛠️ Installation & Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Matgiam/foolish_minds.git
+cd foolish_minds
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start development server:
+```bash
+npm run dev
+```
+
+## 📁 Project Structure
+
+```
+foolish_minds/
+├── public/
+│   ├── audio/          # Audio files (fool.wav, lost.wav, sabbi.wav)
+│   ├── bandmembers/    # Band member photos
+│   ├── images/         # Site images and icons
+│   ├── logo/           # Band logos
+│   ├── shows/          # Show promotional images
+│   └── video/          # Video content
+├── src/
+│   ├── components/     # Reusable React components
+│   │   ├── BandSlider.jsx
+│   │   ├── BandTitle.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ShowCard.jsx
+│   │   ├── SongCard.jsx
+│   │   ├── SongCardItem.jsx
+│   │   └── SongTitle.jsx
+│   ├── constants/      # Application constants
+│   ├── sections/       # Page sections
+│   │   ├── BandSection.jsx
+│   │   ├── FooterSection.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── MessageSection.jsx
+│   │   ├── ShowSection.jsx
+│   │   ├── SongSection.jsx
+│   │   └── VideoSection.jsx
+│   ├── utils/          # Utility functions
+│   ├── App.jsx         # Main application component
+│   ├── index.css       # Global styles
+│   └── main.jsx        # Application entry point
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
+```
+## 🎵 Band Members
+
+- **Maarten** - Guitar
+- **Matteo** - Drums  
+- **Santo** - Bass
+- **Sofie** - Vocals
